@@ -36,5 +36,4 @@ typedef struct tcp
     uint8_t something;
     uint16_t something2;
     uint32_t something3;
-    uint8_t payload[10];
 }Tcp;

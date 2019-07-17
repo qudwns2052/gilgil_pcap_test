@@ -38,12 +38,7 @@ void print_d_port(Tcp * tcp)
     printf("d_port = %d\n", ntohs(tcp->d_port));
 }
 
-/*void print_payload(Tcp * tcp)
-{
-    printf("payload : % %c %c %c %c %c %c %c %c %c\n", tcp->payload[0], tcp->payload[1], tcp->payload[2], tcp->payload[3],
-            tcp->payload[4], tcp->payload[5], tcp->payload[6], tcp->payload[7], tcp->payload[8], tcp->payload[9]);
-}
-*/
+
 
 
 int main(int argc, char* argv[]) {
